@@ -1,0 +1,42 @@
+title: Andrea R.
+description: A journey always starts with a sigle step
+email: andrea.rafanelli96@gmail.com
+url: https://andssssss.github.io/
+github_username:  andrearafanelli
+twitter_username: andrafanelli
+linkedin_username: andrea-rafanelli
+
+sass:
+    sass_dir: _sass
+# Build settings
+markdown: kramdown
+#theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+
+collections:
+  - recipes
+collections:
+  recipes:
+    output: true
+permalink: /:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: "recipes"
+    values:
+      layout: "recipe"
