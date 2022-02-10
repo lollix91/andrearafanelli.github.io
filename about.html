@@ -22,18 +22,19 @@ layout: default
   </div>
   <div class="recipe__title">
     <h2>Work</h2>
+        
+    {% include resumeitem.html
+      date = "2021&mdash;Now"
+      role = "Doctoral researcher"
+      employer = "<a href='https://phd-ai-society.di.unipi.it/'>University of Pisa</a>"
+    %}
 
     {% include resumeitem.html
       date = "2020&mdash;2021"
       role = "Data Scientist"
       employer = "<a href='https://kellify.com/'>Kellify Spa</a>"
     %}
-    
-    {% include resumeitem.html
-      date = "2021&mdash;Now"
-      role = "Doctoral researcher"
-      employer = "<a href='https://phd-ai-society.di.unipi.it/'>University of Pisa</a>"
-    %}
+
 
 
   </div>
