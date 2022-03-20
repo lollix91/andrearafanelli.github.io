@@ -1,0 +1,20 @@
+{
+  "name": "Andrea Rafanelli",
+  "bio": "I like programming. I love tea, books, and cats. I make pictures in my spare time.",
+  "social_links": [
+    {
+      "link": "mailto:andrea.rafanelli96@gmail.com",
+      "platform": "Email"
+    },
+    {
+      "link": "https://github.com/andrearafanelli",
+      "platform": "Github"
+    },
+    {
+      "link": "https://www.linkedin.com/in/andrea-rafanelli/",
+      "platform": "LinkedIn"
+    },
+
+  ],
+
+}
