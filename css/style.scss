@@ -527,4 +527,12 @@ a.nav__logo {
   height: 100%;
 }
 
+#canvas, #text {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
 
