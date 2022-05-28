@@ -93,7 +93,7 @@ function init() {
     let y = (Math.random() * ((innerHeight - size * 2) - (size * 2))  + size * 2);
     let directionX = (Math.random() * 5) - 2.5;
     let directionY = (Math.random() * 5) - 2.5;
-    let colour = '#8C5523'
+    let colour = '#1DE9B6'
 
     particles.push(new Particle(x, y, directionX, directionY, size, colour));
   }
