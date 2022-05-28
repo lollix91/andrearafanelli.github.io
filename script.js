@@ -4,15 +4,16 @@ let resizeReset = function() {
 }
 
 const opts = { 
-	particleColor: "rgb(180,200,200)",
-	lineColor: "rgb(10,200,200)",
-	particleAmount: 50,
+	particleColor: "rgb(10,200,200)",
+	lineColor: "rgb(200,200,200)",
+	particleAmount: 30,
 	defaultSpeed: 1,
 	variantSpeed: 1,
 	defaultRadius: 2,
 	variantRadius: 2,
-	linkRadius: 200,
+	linkRadius: 180,
 };
+
 
 window.addEventListener("resize", function(){
 	deBouncer();
