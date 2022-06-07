@@ -179,10 +179,15 @@ h3, .h3 {
   color: #008080;
   font-family: "Anton", sans-serif;
   text-align: center;
+  margin: 0;
   font-size: calc(18vw + 1rem);
-  font-weight: 100;
+  font-weight: 200;
   line-height: 1;
+  background-size: 45vw auto, 45vw auto, 30vw auto;
+  background-repeat: repeat-x;
+  background-position: 0px 15%, 200px 25%, -50px 2vw;
 }
+
 h4, .h4 {
   font-size: 1.1rem;
   margin-bottom: .25rem;
@@ -391,6 +396,7 @@ h5, .h5 {
 }
 
 .titlebar {
+  font-family: Trocchi, Georgia, serif;
   margin-bottom: 2rem;
   padding: 2.5rem 0;
   @media only screen and (min-width: 80em) {
