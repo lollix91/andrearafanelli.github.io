@@ -175,9 +175,11 @@ h2, .h2 {
 }
 
 h3, .h3 {
-  font-size: 1.2rem;
+  text-align: center;
+  font-size: calc(18vw + 1rem);
+  font-weight: 100;
+  line-height: 1;
 }
-
 h4, .h4 {
   font-size: 1.1rem;
   margin-bottom: .25rem;
@@ -544,21 +546,4 @@ a.nav__logo {
   text-align: center;
 
 	
-}
-
-h10 {
-  font-family: "Anton", sans-serif;
-  text-align: center;
-  margin: 0;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom,color-stop(0.7, #000), color-stop(1.6, transparent));
-  transition: background-position 1s, background-color 1s;
-  text-align: center;
-  font-size: calc(18vw + 1rem);
-  font-weight: 100;
-  line-height: 1;
-  background-size: 45vw auto, 45vw auto, 30vw auto;
-  background-repeat: repeat-x;
-  background-position: 0px 15%, 200px 25%, -50px 2vw;
 }
