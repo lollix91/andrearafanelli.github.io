@@ -9,8 +9,8 @@ const opts = {
 	particleAmount: 30,
 	defaultSpeed: 1,
 	variantSpeed: 1,
-	defaultRadius: 3,
-	variantRadius: 3,
+	defaultRadius: 2,
+	variantRadius: 2,
 	linkRadius: 250,
 };
 
